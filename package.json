@@ -1,6 +1,6 @@
 {
   "name": "TMapPolyLine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"腾讯地图路径规划jsonp转promise\"",
   "main": "index.js",
   "scripts": {
