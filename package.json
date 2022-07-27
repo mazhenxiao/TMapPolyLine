@@ -1,0 +1,32 @@
+{
+  "name": "tencentmap",
+  "version": "1.0.0",
+  "description": "\"腾讯地图路径规划jsonp转promise\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -c -w",
+    "prod": "cross-env NODE_ENV=production rollup -c",
+    "build": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "git-repository": "",
+  "author": "马贞晓",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@types/md5": "^2.3.2",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.77.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
