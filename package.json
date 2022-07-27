@@ -1,5 +1,5 @@
 {
-  "name": "tmappolyline",
+  "name": "TMapPolyLine",
   "version": "1.0.0",
   "description": "\"腾讯地图路径规划jsonp转promise\"",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "git-repository": "",
   "author": "马贞晓",
   "license": "ISC",
-  "repository":"https://github.com/mazhenxiao/TMapPolyLine.git",
+  "repository": "https://github.com/mazhenxiao/TMapPolyLine.git",
   "dependencies": {
     "md5": "^2.3.0"
   },
